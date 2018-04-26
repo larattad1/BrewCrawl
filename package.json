@@ -20,5 +20,17 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.52.0"
-  }
+  },
+  "description": "Brewery finder application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larattad1/BrewCrawl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larattad1/BrewCrawl/issues"
+  },
+  "homepage": "https://github.com/larattad1/BrewCrawl#readme"
 }
