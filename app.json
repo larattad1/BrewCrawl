@@ -1,6 +1,9 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0"
+    "sdkVersion": "25.0.0",
+    "slug": "BrewCrawl",
+    "name": "BrewCrawl",
+    "entryPoint": "c:\\src\\Projects\\BrewCrawl\\.vscode\\exponentIndex.js"
   },
   "name": "BrewCrawl",
   "displayName": "Brew Crawl"
