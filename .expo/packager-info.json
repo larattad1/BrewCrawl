@@ -1,0 +1,7 @@
+{
+  "packagerPort": 8081,
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://sz-izv.larattad1.brewcrawl.exp.direct",
+  "packagerNgrokUrl": "https://packager.sz-izv.larattad1.brewcrawl.exp.direct",
+  "ngrokPid": 7816
+}
