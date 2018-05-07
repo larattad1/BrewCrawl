@@ -23,15 +23,6 @@
             "outDir": "${workspaceRoot}/.vscode/.react"
         },
         {
-            "name": "Debug in Exponent",
-            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
-            "type": "reactnative",
-            "request": "launch",
-            "platform": "exponent",
-            "sourceMaps": true,
-            "outDir": "${workspaceRoot}/.vscode/.react"
-        },
-        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
