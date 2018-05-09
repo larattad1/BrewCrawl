@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, YellowBox } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor:'red',
+    backgroundColor:'#87cefa',
     alignItems:'center', 
     justifyContent:'center'
   },
@@ -24,3 +24,9 @@ export default class Home extends React.Component {
     )
   }
 }
+
+YellowBox.ignoreWarnings([
+  'Warning: componentWillMount is deprecated',
+  'Warning: componentWillReceiveProps is deprecated',
+  'Warning: isMounted(...) is deprecated',
+]);
