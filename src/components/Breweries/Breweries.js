@@ -47,7 +47,7 @@ class BreweryDetails extends React.Component {
           <View style={{
             flex: 1,
             flexDirection: 'column',
-            height: 100
+            height: 115
           }}>
             <Text style={styles.breweryName}>{this.props.item.name}</Text>
             <Text style={styles.flatListItem}>{this.props.item.distance} Miles Away</Text>
@@ -55,11 +55,6 @@ class BreweryDetails extends React.Component {
             <Text style={styles.flatListItem}>Open: {this.props.item.hours}</Text>
             <Text style={styles.breweryDesc}>{this.props.item.description}</Text>
           </View>
-        </View>
-        <View style={{
-          height: 1,
-          backgroundColor: 'white'
-        }}>
         </View>
       </View>
     );
