@@ -13,5 +13,6 @@ module.exports = {
     ],
     "rules": {
         // overrides
+        "no-console": 0
     }
 };

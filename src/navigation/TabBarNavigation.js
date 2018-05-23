@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 import TabIcon from './TabIcon';
 import Home from '../components/Home/Home';
 import Breweries from '../components/Breweries/Breweries';
+import BrewSearch from '../components/BrewSearch/BrewSearch';
+//import BrewSearch from '../search/AutoComplete';
 
 const HomeIconIOS = ({ focused, tintColor }) => (
   <TabIcon iconDefault='ios-home-outline' iconFocused='ios-home' focused={focused} color={tintColor} />
@@ -33,6 +35,20 @@ const BrewIconAndroid = ({ focused, tintColor }) => (
   <TabIcon iconDefault='md-beer' iconFocused='md-beer' focused={focused} color={tintColor} />
 );
 BrewIconAndroid.propTypes = {
+  tintColor: PropTypes.string.isRequired,
+  focused: PropTypes.bool,
+};
+const BrewSearchIconIOS = ({ focused, tintColor }) => (
+  <TabIcon iconDefault='ios-search-outline' iconFocused='ios-search' focused={focused} color={tintColor} />
+);
+BrewSearchIconIOS.propTypes = {
+  tintColor: PropTypes.string.isRequired,
+  focused: PropTypes.bool,
+};
+const BrewSearchIconAndroid = ({ focused, tintColor }) => (
+  <TabIcon iconDefault='md-search' iconFocused='md-search' focused={focused} color={tintColor} />
+);
+BrewSearchIconAndroid.propTypes = {
   tintColor: PropTypes.string.isRequired,
   focused: PropTypes.bool,
 };
@@ -64,6 +80,20 @@ const Tabs = createBottomTabNavigator({
         },
         android: {
           tabBarIcon: BrewIconAndroid
+        }
+      }),
+    }
+  },
+  BrewSearch: {
+    screen: BrewSearch,
+    navigationOptions: {
+      tabBarLabel: 'Search',
+      ...Platform.select({
+        ios: {
+          tabBarIcon: BrewSearchIconIOS
+        },
+        android: {
+          tabBarIcon: BrewSearchIconAndroid
         }
       }),
     }
