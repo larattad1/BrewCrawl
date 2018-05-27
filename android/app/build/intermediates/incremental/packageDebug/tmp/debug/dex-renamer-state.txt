@@ -1,0 +1,4 @@
+#Sat May 26 22:54:19 EDT 2018
+base.0=C\:\\Users\\Josh\\Documents\\BrewCrawl\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
